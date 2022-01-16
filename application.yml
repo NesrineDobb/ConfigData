@@ -1,24 +1,34 @@
 ---
 spring:
-  profiles: subject
+    config:
+        activate:
+            on-profile: subject
 words: I,You,He,She,It
 
 ---
 spring:
-  profiles: verb
+    config:
+        activate:
+            on-profile: verb
 words: ran,knew,had,saw,bought
 
 ---
 spring:
-  profiles: article
+    config:
+        activate:
+            on-profile: article
 words: a,the
 
 ---
 spring:
-  profiles: adjective
+    config:
+        activate:
+            on-profile: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
-  profiles: noun
+    config:
+        activate:
+            on-profile: noun
 words: boat,book,vote,seat,backpack,partition,groundhog 
